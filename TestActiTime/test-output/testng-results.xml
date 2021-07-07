@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
+  <reporter-output>
+    <line>
+      <![CDATA[The actitime test cases will execute now onwards]]>
+    </line>
+    <line>
+      <![CDATA[The test has been started]]>
+    </line>
+    <line>
+      <![CDATA[thisinvalidLoginActiTimeTest is failed and the screenshot is taken in the screenshots folder]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="20287" started-at="2021-07-07T09:03:49 IST" finished-at="2021-07-07T09:04:09 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="20287" started-at="2021-07-07T09:03:49 IST" finished-at="2021-07-07T09:04:09 IST">
+      <class name="test.TestActiTimeInvalidLogin">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:test.TestActiTimeInvalidLogin@536aaa8d]" name="setUp" is-config="true" duration-ms="3381" started-at="2021-07-07T09:03:49 IST" finished-at="2021-07-07T09:03:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="invalidLoginActiTimeTest()[pri:0, instance:test.TestActiTimeInvalidLogin@536aaa8d]" name="invalidLoginActiTimeTest" duration-ms="15579" started-at="2021-07-07T09:03:53 IST" finished-at="2021-07-07T09:04:08 IST">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at generic.Flib.readExcel(Flib.java:26)
+at test.TestActiTimeInvalidLogin.invalidLoginActiTimeTest(TestActiTimeInvalidLogin.java:31)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+            <line>
+              <![CDATA[The test has been started]]>
+            </line>
+            <line>
+              <![CDATA[thisinvalidLoginActiTimeTest is failed and the screenshot is taken in the screenshots folder]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- invalidLoginActiTimeTest -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:test.TestActiTimeInvalidLogin@536aaa8d]" name="closeBrowser" is-config="true" duration-ms="828" started-at="2021-07-07T09:04:09 IST" finished-at="2021-07-07T09:04:09 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- test.TestActiTimeInvalidLogin -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
